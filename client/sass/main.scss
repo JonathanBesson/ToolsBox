@@ -1,0 +1,14 @@
+@charset 'utf-8';
+
+// # main.scss est la source qui généralise toute la production de SASS autour du projet, c'est ce fichier qui sera appelé en front
+
+// **** A P P - S A S S   F I L E S ****
+@import './utilities/variables';
+@import './utilities/functions';
+@import './utilities/mixins';
+@import './utilities/placeholders';
+@import './utilities/transitions';
+
+@import './components/tools-list';
+
+@import './themes/theme';

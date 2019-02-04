@@ -1,0 +1,41 @@
+// Custom.scss
+// Include parts of Bootstrap
+
+$white: #fff;
+$dark: #191b1d;
+
+$primary: #21c38d;
+
+$body-color: $white;
+
+$card-border-color: darken($dark, 5%);
+$card-cap-bg: darken($dark, 2%);
+
+$input-border-color: darken($dark, 5%);
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+// Optional
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/card";
+@import "../../node_modules/bootstrap/scss/navbar";
+@import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/forms";
+@import "../../node_modules/bootstrap/scss/input-group";
+
+body {
+  background-color: $dark;
+}
+
+.navbar-dark {
+  border-bottom: 1px solid #000;
+}
+
+.card {
+  background-color: darken($dark, 1%);
+}

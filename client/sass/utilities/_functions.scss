@@ -1,0 +1,4 @@
+// Sass Functions
+@function getColor($scheme, $key) {
+    @return map-get(map-get($scheme, color), $key);
+}
